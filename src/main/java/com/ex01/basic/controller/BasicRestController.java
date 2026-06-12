@@ -20,7 +20,7 @@ public class BasicRestController {
     }
     @GetMapping("/api/test01")
     public ResponseEntity<String> getTest01(HttpServletRequest request){
-        String clientIp = request.getRemoteAddr();
+        String clientIp = request.getLocalAddr();
         String msg = "get방식 요청 => "+clientIp;
         return ResponseEntity.ok( msg );
     }
