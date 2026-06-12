@@ -1,0 +1,6 @@
+logging:
+  level:
+    root : INFO
+  file:
+    name : logs/app.log
+    max-size : 3KB  #파일 최대 크기

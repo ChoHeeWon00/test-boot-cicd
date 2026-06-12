@@ -1,0 +1,16 @@
+2026-02-03T16:16:00.375+09:00  INFO 24412 --- [members] [restartedMain] com.ex01.basic.MembersApplication        : Started MembersApplication in 4.913 seconds (process running for 5.403)
+2026-02-03T16:16:00.379+09:00  WARN 24412 --- [members] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-02-03T16:16:00.379+09:00  WARN 24412 --- [members] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-02-03T16:16:02.343+09:00  INFO 24412 --- [members] [http-nio-10000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-03T16:16:02.343+09:00  INFO 24412 --- [members] [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-03T16:16:02.343+09:00  INFO 24412 --- [members] [http-nio-10000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-02-03T16:16:02.373+09:00  INFO 24412 --- [members] [http-nio-10000-exec-1] c.e.basic.controller.MemberController    : 모든 목록 확인
+2026-02-03T16:16:02.540+09:00  WARN 24412 --- [members] [http-nio-10000-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.ex01.basic.exception.MemberNotFoundException]
+2026-02-03T16:16:05.885+09:00  INFO 24412 --- [members] [http-nio-10000-exec-2] c.e.basic.controller.MemberController    : 모든 목록 확인
+2026-02-03T16:16:05.891+09:00  WARN 24412 --- [members] [http-nio-10000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.ex01.basic.exception.MemberNotFoundException]
+2026-02-03T16:16:06.548+09:00  INFO 24412 --- [members] [http-nio-10000-exec-3] c.e.basic.controller.MemberController    : 모든 목록 확인
+2026-02-03T16:16:06.553+09:00  WARN 24412 --- [members] [http-nio-10000-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.ex01.basic.exception.MemberNotFoundException]
+2026-02-03T16:16:06.941+09:00  INFO 24412 --- [members] [http-nio-10000-exec-4] c.e.basic.controller.MemberController    : 모든 목록 확인
+2026-02-03T16:16:06.945+09:00  WARN 24412 --- [members] [http-nio-10000-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.ex01.basic.exception.MemberNotFoundException]
+2026-02-03T16:17:16.858+09:00  INFO 24412 --- [members] [http-nio-10000-exec-7] c.e.basic.controller.MemberController    : 모든 목록 확인
+2026-02-03T16:17:16.863+09:00  WARN 24412 --- [members] [http-nio-10000-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.ex01.basic.exception.MemberNotFoundException]
