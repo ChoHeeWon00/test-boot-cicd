@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("members")
+@RequestMapping("/members")
 @Slf4j
 @Tag(name = "MemberAPI", description = "회원 도메인 API")
 public class MemberController {
