@@ -1,6 +1,7 @@
 package com.ex01.basic.controller;
 
 import com.ex01.basic.dto.BasicDTO;
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,8 +19,9 @@ public class BasicRestController {
         }
     }
     @GetMapping("/api/test01")
-    public ResponseEntity<String> getTest01(){
-        String msg = "get방식 요청";
+    public ResponseEntity<String> getTest01(HttpServletRequest request){
+        String clientIp = request.getRemoteAddr();
+        String msg = "get방식 요청 => "+clientIp;
         return ResponseEntity.ok( msg );
     }
     @GetMapping("/api/test02")
